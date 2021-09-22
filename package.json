@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "print": "echo 'hello,world'"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -38,8 +39,7 @@
   },
   "lint-staged": {
     "*.{js,jsx,vue}": [
-      "vue-cli-service lint",
-      "git add"
+  "npm run print"
     ]
   }
 }
